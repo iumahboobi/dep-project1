@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ihsanullah Mahboobi" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="movies.css" />
+    <link rel="icon" href="./images/document_logo.png" />
+    <script
+      src="https://kit.fontawesome.com/b18db67d26.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Netflix Demo</title>
+  </head>
+  <body>
+    <section class="page-container padding">
+      <nav class="navigation-bar">
+        <div class="left-nav">
+          <div class="logo">
+            <a href="#">
+              <img src="./images/logo.jpeg" width="150px" height="90px" />
+            </a>
+          </div>
+          <ul class="left-nav-items">
+            <li>Home</li>
+            <li>TV Shows</li>
+            <li>Movies</li>
+            <li>Recently Added</li>
+            <li>My Link</li>
+          </ul>
+        </div>
+        <div class="right-nav">
+          <ul class="right-nav-items">
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+            <li>KIDS</li>
+            <li>DVD</li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li><i class="fa-solid fa-bell"></i></li>
+          </ul>
+        </div>
+      </nav>
+
+      <audio autoplay>
+        <source src="./Sound/Netflix_intro.mp3" />
+      </audio>
+
+      <div class="padding">
+        <h1>Award-Winning TV Shows</h1>
+        <p class="">
+          Movies move us like nothing else can, whether they’re scary, funny,
+          dramatic, romantic or anywhere in-between. So many titles, so much to
+          experience.
+        </p>
+      </div>
+
+      <section class="movies-section padding">
+        <div class="title">
+          <h3>Trending Now</h3>
+        </div>
+        <div class="grid-contents">
+          <!-- <div class="title">
+            <h3>Trending Now</h3>
+          </div> -->
+          <div>
+            <img class="movie1" />
+            <h4>Money Heist</h4>
+          </div>
+          <div>
+            <img class="movie2" />
+            <h4>Orange is new Balack</h4>
+          </div>
+          <div>
+            <img class="movie3" />
+            <h4>Breaking Bad</h4>
+          </div>
+          <div class="">
+            <img class="movie4" />
+            <h4>Trailer Park Boys</h4>
+          </div>
+          <div class="">
+            <img class="movie5" />
+            <h4>Peaky Blinders</h4>
+          </div>
+        </div>
+
+        <!-- TV DRAMAS-->
+        <div class="title">
+          <h3>Critically Acclaimed TV Dramas</h3>
+        </div>
+        <div class="grid-contents">
+          <div>
+            <img class="movie6" />
+            <h4>Dark</h4>
+          </div>
+          <div>
+            <img class="movie7" />
+            <h4>Black Mirror</h4>
+          </div>
+          <div>
+            <img class="movie8" />
+            <h4>Greys Anatomy</h4>
+          </div>
+          <div>
+            <img class="movie9" />
+            <h4>The Walking Dead</h4>
+          </div>
+          <div>
+            <img class="movie10" />
+            <h4>Sherlock Holmes</h4>
+          </div>
+        </div>
+
+        <!-- Top Picks for bm 25-->
+        <div class="title">
+          <h3>Top Picks for bm25</h3>
+        </div>
+        <div class="grid-contents">
+          <div>
+            <img class="movie11" />
+            <h4>Batman</h4>
+          </div>
+          <div>
+            <img class="movie12" />
+            <h4>John Wick 3</h4>
+          </div>
+          <div>
+            <img class="movie13" />
+            <h4>Patriot</h4>
+          </div>
+          <div>
+            <img class="movie14" />
+            <h4>The Office</h4>
+          </div>
+          <div>
+            <img class="movie15" />
+            <h4>Intersteller</h4>
+          </div>
+        </div>
+
+        <!-- Horror -->
+        <div class="title">
+          <h3>Horror</h3>
+        </div>
+        <div class="grid-contents">
+          <div class="grid-contents">
+            <div>
+              <img class="movie16" />
+              <h4>Do not Knock Twice</h4>
+            </div>
+            <div>
+              <img class="movie17" />
+              <h4>The Grudge</h4>
+            </div>
+            <div>
+              <img class="movie18" />
+              <h4>IT Chapter 2</h4>
+            </div>
+            <div>
+              <img class="movie19" />
+              <h4>The NUN</h4>
+            </div>
+            <div>
+              <img class="movie20" />
+              <h4>No One Get Alive</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <footer></footer>
+      </section>
+    </section>
+    <audio
+      src="./Sound/Netflix_intro.mp3"
+      autoplay="autoplay"
+      id="netflix-intro"
+    ></audio>
+    <!-- <source src="./Sound/Netflix_intro.mp3" type="audio/ogg" /> -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>

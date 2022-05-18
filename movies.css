@@ -1,0 +1,119 @@
+/* Movie Classes*/
+.movie1,
+.movie2,
+.movie3,
+.movie4,
+.movie5,
+.movie6,
+.movie7,
+.movie8,
+.movie9,
+.movie10,
+.movie11,
+.movie12,
+.movie13,
+.movie14,
+.movie15,
+.movie16,
+.movie17,
+.movie18,
+.movie19,
+.movie20 {
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 150px;
+}
+.movie1:hover,
+.movie2:hover,
+.movie3:hover,
+.movie4:hover,
+.movie5:hover,
+.movie6:hover,
+.movie7:hover,
+.movie8:hover,
+.movie9:hover,
+.movie10:hover,
+.movie11:hover,
+.movie12:hover,
+.movie13:hover,
+.movie14:hover,
+.movie15:hover,
+.movie16:hover,
+.movie17:hover,
+.movie18:hover,
+.movie19:hover,
+.movie20:hover {
+  transform: scale(1.5);
+  transition: 0.7s;
+  box-shadow: 1px 0px 12px 5px #c5b8b860;
+  cursor: pointer;
+}
+
+/* Tredning Now*/
+
+.movie1 {
+  background-image: url(./images/newly_trend/moneyheist.jpeg);
+}
+.movie2 {
+  background-image: url(./images/newly_trend/bisneworange.jpeg);
+}
+.movie3 {
+  background-image: url(./images/newly_trend/breaking_bad.jpeg);
+}
+.movie4 {
+  background-image: url(./images/newly_trend/trailerparkboys.jpeg);
+}
+.movie5 {
+  background-image: url(./images/newly_trend/peaky-blinders.jpeg);
+}
+
+/* TV Dramas*/
+.movie6 {
+  background-image: url(./images/dramas/dark.jpeg);
+}
+.movie7 {
+  background-image: url(./images/dramas/black_mirror.jpeg);
+}
+.movie8 {
+  background-image: url(./images/dramas/greys_anatomy.jpeg);
+}
+.movie9 {
+  background-image: url(./images/dramas/twd.jpeg);
+}
+.movie10 {
+  background-image: url(./images/dramas/strickers.jpeg);
+}
+/*Top Picks*/
+.movie11 {
+  background-image: url(./images/top_picks/batman.jpeg);
+}
+.movie12 {
+  background-image: url(./images/top_picks/john_wick.jpeg);
+}
+.movie13 {
+  background-image: url(./images/top_picks/patriot.jpeg);
+}
+.movie14 {
+  background-image: url(./images/top_picks/the_office.jpeg);
+}
+.movie15 {
+  background-image: url(./images/top_picks/intersteller.jpeg);
+}
+
+/*Horror */
+.movie16 {
+  background-image: url(./images/Horror/dktwice.jpeg);
+}
+.movie17 {
+  background-image: url(./images/Horror/the_grudge.jpeg);
+}
+.movie18 {
+  background-image: url(./images/Horror/it_horror.jpeg);
+}
+.movie19 {
+  background-image: url(./images/Horror/nun.jpeg);
+}
+.movie20 {
+  background-image: url(./images/Horror/horror1.jpeg);
+}
